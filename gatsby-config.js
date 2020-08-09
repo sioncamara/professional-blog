@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: "gatsby-source-strapi",
       options: {
-        apiURL: "https://powerful-inlet-02184.herokuapp.com/",
+        apiURL: "https://powerful-inlet-02184.herokuapp.com",
         contentTypes: [
           // List of the Content Types you want to be able to request from Gatsby.
           "article",

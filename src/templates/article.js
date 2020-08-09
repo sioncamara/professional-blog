@@ -14,7 +14,7 @@ export const query = graphql`
       content
       published_at
       image {
-        name
+        url
       }
     }
   }
@@ -28,8 +28,8 @@ const Article = ({ data }) => {
         <div
           id="banner"
           className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-padding uk-margin"
-          data-src={article.image[0].name}
-          data-srcset={article.image[0].name}
+          data-src={article.image[0].url}
+          data-srcset={article.image[0].url}
           data-uk-img
         >
           
